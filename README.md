@@ -1,7 +1,20 @@
-### What's This?
-* This code started out as a fork of Kuali Student ks-aggregate/trunk. Everything was imported imported except the contents
-of the Impex MPX files which were very large. Those can be recreated by doing the manual impex procedure. It also contains
-all of the commit history from Subversion.
-* A tag was created immediately after import called "Initial".
-* Subsequently, all code not related to Curriculum Management was removed.
-* Soon all of the UI-related code will move to UW CM leaving just the CM services layer code.
+### What's this?
+
+This is a contribution from the University of Washington. 
+
+* This code started out as a fork of Kuali Student ks-aggregate/trunk. Everything was imported except for the contents of the Impex MPX files which were very large. Those can be recreated by doing the manual impex procedure. It also contains all of the commit history from Subversion.
+* Removed the following:
+    * GWT source code
+    * ks-enroll module
+    * ks-ap module
+    * ks-fa module
+    * Deployment configuration that was taking up resources (e.g. activemq)
+* Patches were applied to fix the following jiras:
+    * [KSCM-1264](https://jira.kuali.org/browse/KSCM-1264)
+    * [KSCM-2364](https://jira.kuali.org/browse/KSCM-2364)
+    * [KSCM-2932](https://jira.kuali.org/browse/KSCM-2932)
+    * [KSCM-2680](https://jira.kuali.org/browse/KSCM-2680)
+    * [KSCM-2341](https://jira.kuali.org/browse/KSCM-2341)
+    * [KSCM-2251](https://jira.kuali.org/browse/KSCM-2251)
+    * [KSCM-2764](https://jira.kuali.org/browse/KSCM-2764)
+* The tag 'Post-Cleanup' was created immediately after the cleanup
